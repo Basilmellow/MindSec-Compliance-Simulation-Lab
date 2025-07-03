@@ -1,3 +1,78 @@
-Security-Policies/BYOD-Policy.docx
+MindSec Corp.  
+Bring Your Own Device (BYOD) Policy  
+Version: 1.0  
+Date: 03-07-2025  
+Owner: Mohamed Basil, Security Officer
 
-Policy for personal devices used in the workplace.
+
+1. Purpose
+
+This policy establishes the security and usage requirements for employees and contractors who wish to use personal devices such as smartphones, tablets, and laptops for business purposes at MindSec Corp.
+
+
+2. Scope
+
+This policy applies to all personnel who access MindSec Corp.’s data, systems, or services using personal (non-company-owned) devices, whether on-site or remotely.
+
+
+3. Approved Device Types
+
+The following personal devices are permitted for BYOD usage with prior registration:
+- Smartphones (Android, iOS)
+- Tablets
+- Laptops
+
+
+4. Security Requirements
+
+To access company systems, all BYOD devices must:
+- Use a secure password or biometric lock
+- Be encrypted (full disk encryption for laptops and storage encryption for phones)
+- Run up-to-date antivirus or endpoint protection software
+- Be registered with the IT department
+- Be configured with automatic lock and inactivity timeouts
+- Be free of pirated or unauthorized software
+
+
+5. Mobile Device Management (MDM)
+
+MindSec Corp. reserves the right to implement MDM software on all BYOD devices to:
+- Enforce security policies
+- Monitor compliance
+- Remotely wipe corporate data in case of device loss, theft, or employee departure
+
+
+6. Prohibited Usage
+
+The following are strictly prohibited:
+- Rooted or jailbroken devices
+- Storing unencrypted corporate data on public cloud services
+- Accessing or storing sensitive data without authorization
+- Sharing access credentials with others
+
+
+7. Data Separation
+
+Employees must use separate apps or secure containers (if provided) to isolate business data from personal data.
+
+
+8. Loss or Theft
+
+In case of lost or stolen devices, employees must notify the IT or Security Team within 24 hours. IT will initiate a remote wipe of company data if necessary.
+
+
+9. User Responsibility
+
+All users must sign an acknowledgment form agreeing to the terms of this policy before being granted BYOD access.
+
+---
+
+10. Policy Review
+
+This policy shall be reviewed annually or upon significant change in BYOD practices, technologies, or regulations.
+
+
+Approved by:  
+Name: Mohamed Basil  
+Title: Security Officer  
+Date: 03-07-2025
