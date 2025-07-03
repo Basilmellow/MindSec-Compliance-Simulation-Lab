@@ -1,3 +1,69 @@
-Security-Policies/Data-Classification-Policy.docx
+MindSec Corp.  
+Data Classification and Handling Policy  
+Version: 1.0  
+Date: 03-07-2025  
+Owner: Mohamed Basil, Security Officer
 
-Guidelines for classifying and handling data based on sensitivity.
+
+1. Purpose
+
+This policy defines how MindSec Corp. classifies and protects data based on its sensitivity, value, and criticality to the organization. Proper classification ensures that information is protected according to its risk level.
+
+
+2. Scope
+
+This policy applies to all data created, received, processed, stored, or transmitted by MindSec Corp., across all departments, systems, and formats (physical and digital).
+
+
+3. Classification Levels
+
+MindSec Corp. categorizes data into the following four levels:
+
+- Public: Information intended for public disclosure. No confidentiality requirement.  
+  Example: Company website content, marketing materials.
+
+- Internal: Non-sensitive operational data accessible to all employees. Unauthorized disclosure has minimal impact.  
+  Example: Staff announcements, internal guidelines.
+
+- Confidential: Sensitive business or employee information. Unauthorized access can cause damage or legal risk.  
+  Example: Financial reports, HR data, project plans.
+
+- Restricted: Highly sensitive information requiring strict access control. Unauthorized disclosure could result in serious legal or reputational damage.  
+  Example: Passwords, encryption keys, security incident reports.
+
+4. Handling Requirements
+
+| Classification | Storage                          | Transmission                        | Access Control                        | Disposal                           |
+|----------------|-----------------------------------|-------------------------------------|---------------------------------------|------------------------------------|
+| Public         | No restriction                    | No restriction                      | Available to all                      | Normal deletion                    |
+| Internal       | Corporate drives or email         | Internal network or secure email    | All employees                         | Shred (paper), secure delete (file)|
+| Confidential   | Encrypted storage                 | Encrypted email or VPN              | Role-based, logged access             | Shred (paper), secure wipe (file)  |
+| Restricted     | Encrypted with strict access logs | VPN or internal only, encrypted     | Limited to named individuals          | Secure erase, document destruction |
+
+
+5. Roles and Responsibilities
+
+- Employees are responsible for correctly labeling and handling data based on this policy.
+- Department heads must review and validate classification of critical business data.
+- The Security Team will provide training and oversee compliance.
+
+
+6. Labeling Guidelines
+
+All digital and printed documents must include a footer or header label indicating the classification (e.g., “Confidential – MindSec Corp.”). Emails with Confidential or Restricted data must use subject labels like “[CONFIDENTIAL]”.
+
+
+7. Enforcement
+
+Failure to adhere to this policy may lead to disciplinary action, including termination or legal action in severe cases.
+
+
+8. Policy Review
+
+This policy must be reviewed annually or following significant changes in data handling technologies, legal requirements, or organizational structure.
+
+
+Approved by:  
+Name: Mohamed Basil  
+Title: Security Officer  
+Date: 03-07-2025
