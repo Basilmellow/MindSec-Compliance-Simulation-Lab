@@ -1,3 +1,20 @@
-Asset-Inventory.xlsx
+| Asset ID | Asset Name        | Type              | Department Owner | Classification | Criticality | Location        | Assigned To     | Protection Controls                     |
+| -------- | ----------------- | ----------------- | ---------------- | -------------- | ----------- | --------------- | --------------- | --------------------------------------- |
+| A-001    | WS01              | Workstation       | IT               | Internal       | Medium      | Office LAN      | John (Analyst)  | Antivirus, Auto-lock, Password policy   |
+| A-002    | VM01              | Virtual Machine   | IT               | Confidential   | High        | VirtualBox      | Security Team   | SSH key access, Firewall, 2FA           |
+| A-003    | Splunk SIEM       | Software Platform | Security         | Sensitive      | High        | Cloud (Web UI)  | Security Team   | Role-based access, HTTPS, Log retention |
+| A-004    | Policy Folder     | Document Storage  | Compliance       | Confidential   | High        | Local Fileshare | Compliance Lead | Access control, Read-only permissions   |
+| A-005    | HR Drive          | Shared Folder     | HR               | Confidential   | Medium      | Fileshare       | HR Staff        | Role-based access, Data classification  |
+| A-006    | Email Server      | Cloud Service     | IT               | Internal       | High        | Outlook365      | All Employees   | Email filtering, MFA, Audit logging     |
+| A-007    | Dev WebApp Server | Application Host  | DevOps           | Confidential   | High        | Ubuntu (Cloud)  | Dev Team        | Firewall, Patching, Input validation    |
+| A-008    | Employee Laptops  | BYOD              | All Departments  | Confidential   | Medium      | Mixed           | Employees       | MDM, Full Disk Encryption, Antivirus    |
+| A-009    | VPN Gateway       | Network Device    | IT               | Internal       | High        | Edge Firewall   | IT Admin        | MFA, IP Whitelist, Logging              |
 
-List of assets: workstations, VMs, web apps, and documentation systems.
+
+Field Definitions:
+Classification: Internal, Confidential, Public
+
+Criticality: Based on business dependency (High/Medium/Low)
+
+Protection Controls: Mention the key security measures
+
