@@ -1,3 +1,37 @@
-Reports/Risk-Treatment-Plan.docx
+MindSec Corp.  
+Risk Treatment Plan  
+Version: 1.0  
+Date: 03-07-2025  
+Owner: Mohamed Basil, Security Officer
 
-Describes how MindSec Corp. plans to address identified risks.
+
+1. Introduction
+
+This Risk Treatment Plan outlines the actions that MindSec Corp. will take to address risks identified in the risk assessment process. Each risk is evaluated based on its likelihood and impact and is mapped to corresponding controls from ISO/IEC 27001 Annex A.
+
+
+2. Risk Treatment Table
+
+| Risk ID | Risk Description                   | Risk Score | Treatment Option | Control Reference | Action Plan                                         | Owner           | Target Date  | Status     |
+|---------|------------------------------------|------------|------------------|--------------------|----------------------------------------------------|------------------|--------------|------------|
+| R-002   | Weak SSH password on VM            | 20         | Mitigate         | A.8.3              | Enforce strong SSH passwords, enable key-based login & 2FA | Security Team    | 10-07-2025   | In Progress |
+| R-004   | Policy folder has no backups       | 15         | Mitigate         | A.12.1             | Configure daily backups to encrypted cloud storage | IT Admin         | 12-07-2025   | Planned     |
+| R-005   | Web application SQL injection      | 20         | Mitigate         | A.14.1             | Implement input validation & deploy WAF            | Dev Team         | 15-07-2025   | Open        |
+| R-006   | Phishing risk via email            | 16         | Mitigate         | A.7.2              | Launch phishing awareness training for all staff   | HR               | 20-07-2025   | Planned     |
+| R-007   | Unencrypted BYOD devices           | 15         | Mitigate         | A.6.2, A.8.1        | Enforce MDM policy with encryption requirements     | IT Admin         | 18-07-2025   | In Progress |
+| R-008   | Shared VPN credentials             | 12         | Avoid            | A.9.2              | Assign individual VPN accounts, enable MFA         | IT Admin         | 14-07-2025   | Open        |
+
+
+3. Monitoring and Reporting
+
+- Risk treatment progress will be reviewed bi-weekly by the security officer.
+- Status updates will be recorded in this plan and reported during ISMS management reviews.
+- Residual risk will be evaluated post-implementation to determine if additional controls are needed.
+
+
+4. Approval
+
+Reviewed and approved by:  
+Name: Mohamed Basil  
+Title: Security Officer  
+Date: 03-07-2025
