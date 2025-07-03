@@ -1,3 +1,72 @@
-Security-Policies/Access-Control-Policy.docx
+MindSec Corp.  
+Access Control Policy  
+Version: 1.0  
+Date: 03-07-2025  
+Owner: Mohamed Basil, Security Officer
 
-Defines access control measures and responsibilities.
+
+1. Purpose
+
+The purpose of this policy is to establish clear rules for access to MindSec Corp.’s information systems, applications, and data to protect against unauthorized use or disclosure.
+
+
+2. Scope
+
+This policy applies to all employees, contractors, vendors, and third-party users who access MindSec Corp. information assets including workstations, cloud systems, databases, and network infrastructure.
+
+
+3. Access Control Principles
+
+- Access shall be granted based on the principle of least privilege.
+- All users will be given access only to the systems and data necessary for their role.
+- Access must be approved by the respective department head and documented.
+
+
+4. User Account Management
+
+- All user accounts must be unique and assigned to named individuals.
+- Shared accounts are strictly prohibited except for specific, approved use cases with logging.
+- Accounts must be deactivated within 24 hours of employee separation or role change.
+- Default passwords must be changed upon first login.
+
+
+5. Authentication Requirements
+
+- All systems must enforce strong passwords (minimum 12 characters, mix of types).
+- Two-factor authentication (2FA) is mandatory for VPN, cloud admin portals, and email.
+- Access to critical infrastructure must be logged and monitored.
+
+
+6. Privileged Access
+
+- Privileged access (e.g., admin, root) must be limited to authorized IT/security staff.
+- All privileged activity must be logged.
+- Privileged accounts must not be used for day-to-day tasks.
+
+
+7. Access Review
+
+- Quarterly reviews of all user accounts must be conducted by IT.
+- Any unused, inactive, or unauthorized access must be revoked immediately.
+
+
+8. Remote Access
+
+- Remote access to internal systems must occur via secure VPN with MFA.
+- Use of public Wi-Fi for remote connections is discouraged unless a VPN is active.
+
+
+9. Violations
+
+Non-compliance with this policy may result in disciplinary action including termination of access privileges, employment review, or legal proceedings.
+
+
+10. Policy Review
+
+This policy must be reviewed annually or after a major change in systems, access management, or following a security incident.
+
+
+Approved by:  
+Name: Mohamed Basil  
+Title: Security Officer  
+Date: 03-07-2025
