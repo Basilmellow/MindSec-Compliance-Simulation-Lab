@@ -1,3 +1,15 @@
-Risk-Assessment.xlsx
+| Risk ID | Asset            | Threat                          | Vulnerability               | Likelihood (1–5) | Impact (1–5) | Risk Score | Existing Control           | Proposed Control                      | Risk Owner      | Status      |
+| ------- | ---------------- | ------------------------------- | --------------------------- | ---------------- | ------------ | ---------- | -------------------------- | ------------------------------------- | --------------- | ----------- |
+| R-001   | WS01 Workstation | Malware infection               | Outdated antivirus          | 3                | 4            | 12         | Windows Defender enabled   | Regular AV updates, Endpoint security | IT Admin        | In Progress |
+| R-002   | Linux VM         | Unauthorized remote access      | Weak SSH password           | 4                | 5            | 20         | SSH with username/password | Enforce strong passwords, enable 2FA  | Security Team   | Open        |
+| R-003   | Splunk SIEM      | Log tampering                   | Insecure access permissions | 2                | 5            | 10         | Admin login required       | Role-based access control             | Security Team   | Open        |
+| R-004   | Policy Folder    | Accidental deletion of policies | No backup configured        | 3                | 5            | 15         | Access via file share only | Automated daily backups               | Compliance Lead | Planned     |
+| R-005   | Web Application  | SQL Injection                   | No input validation         | 4                | 5            | 20         | Basic firewall             | Implement input validation & WAF      | Dev Team        | Open        |
+| R-006   | Email Accounts   | Phishing attack                 | Lack of user training       | 4                | 4            | 16         | Email filtering enabled    | Phishing awareness training           | HR              | Planned     |
+| R-007   | Laptop (BYOD)    | Data leakage                    | No encryption on device     | 3                | 5            | 15         | Device login password      | Enforce encryption & MDM              | IT Admin        | In Progress |
+| R-008   | VPN Access       | Credential theft                | Shared user accounts        | 3                | 4            | 12         | VPN authentication         | Individual accounts + MFA             | IT Admin        | Open        |
 
-Risk Assessment Matrix with risk categories and scoring.
+Column Tips:
+Likelihood: 1 = Rare, 5 = Almost Certain
+Impact: 1 = Negligible, 5 = Severe
+Risk Score = Likelihood × Impact
