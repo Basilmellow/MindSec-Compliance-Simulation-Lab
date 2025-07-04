@@ -1,3 +1,5 @@
+
+![e8dd513f-89a5-4ed2-88ec-b5967474b423](https://github.com/user-attachments/assets/fbe4765b-e88d-42e8-b3b1-092b70716d39)
 🔐 Project Title:
 
 MindSec-Compliance-Simulation-Lab
